@@ -1,0 +1,152 @@
+/* The Modal (background) */
+#comment-modal .modal {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* Modal Content */
+#comment-modal .modal .modal-content {
+    /* background-color: #fefefe; */
+    background-color: #000;
+    color: #fff;
+    padding: 0px 20px 20px 20px;
+    border: 1px solid #888;
+    width: 50%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+#comment-modal .modal .modal-content p {
+    text-align: center;
+    padding: 0 140px;
+}
+
+#comment-modal .modal .modal-content h1,
+#comment-modal .modal .modal-content h2 {
+    font-weight: 500;
+    text-align: center;
+    font-size: 26px;
+}
+
+#comment-modal .modal .modal-content h2 {
+    padding-bottom: 11px;
+    font-size: 22px;
+}
+
+#comment-modal .modal .modal-content h1 {
+    color: #cc5f3e;
+    text-transform: uppercase;
+
+}
+
+/* The Close Button */
+#comment-modal .modal .close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#comment-modal .modal .close:hover,
+#comment-modal .modal .close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content-head {
+    display: none;
+}
+
+.for-visibilty .modal-content-head {
+    display: block;
+}
+
+.for-visibilty .main-content {
+    display: none;
+}
+
+/* Modal Content */
+.for-visibilty #comment-modal .modal .modal-content {
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    #comment-modal .modal .modal-content {
+        height: 82vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    #comment-modal .modal .modal-content p {
+        padding: 0 40px;
+    }
+    
+    
+    #comment-modal .modal .modal-content {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    #comment-modal .modal .close {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        right: 32px;
+        background: #ccc;
+        margin-top: 20px;
+        height: 31px;
+        width: 30px;
+        align-items: center;
+        color: #000;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+
+    #comment-modal .modal .modal-content h1 {
+        padding-top: 30px;
+    }
+
+    .structureLandscape .imagePopup div#lightboxExampleCarousel img {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    #comment-modal .modal .modal-content{
+        width: 60%;
+    }
+    #comment-modal .modal .modal-content p {
+        padding: 0 40px;
+    }
+    #comment-modal .modal {
+        padding-top: 30px;
+    }
+    #comment-modal .modal .modal-content {
+        height: 467px;
+    }
+}
