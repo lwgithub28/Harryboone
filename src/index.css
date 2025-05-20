@@ -1,0 +1,155 @@
+/* @font-face {
+  font-family: Inter;
+  src: url(./assests/Inter.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(./assests/Poppins/Poppins-Bold.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins-ExtraBold;
+  src: url(./assests/Poppins/Poppins-ExtraBold.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins-ExtraLight;
+  src: url(./assests/Poppins/Poppins-ExtraLight.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url(./assests/Poppins/Poppins-Light.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(./assests/Poppins/Poppins-Medium.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(./assests/Poppins/Poppins-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(./assests/Poppins/Poppins-SemiBold.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins-Thin;
+  src: url(./assests/Poppins/Poppins-Thin.ttf);
+  font-display: swap;
+} */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Poppins-Medium;
+} */
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: Inter;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.css-16jr3vd {
+  background-color: #000 !important;
+}
+
+.css-x4na0v,
+.css-1rkjyjh,
+.css-xfk84m,
+.css-1h82jk3 {
+  opacity: 1 !important;
+}
+
+.css-m6j0xf:focus {
+  outline: none !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 1050px;
+    max-width: 1050px;
+  }
+}
+
+.structureLandscape .custom-carousel-footer button {
+  width: 30px;
+}
+
+button.nav-button.next-button {
+  right: 45px;
+}
+
+button.nav-button.prev-button {
+  left: 40px;
+}
+
+button.nav-button.prev-button,
+button.nav-button.next-button {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  cursor: pointer;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  pointer-events: auto;
+  border: none;
+}
+
+button.css-xfk84m.css-1ycyyax,
+button.css-1h82jk3.css-1ycyyax {
+  display: none;
+}
+
+.top-header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.top-header button {
+  pointer-events: auto;
+}
+
+.react-images__positioner {
+  background-color: #000;
+  /* pointer-events: none; */
+}
+
+.image-modal .caption {
+  margin-top: -80px;
+  color: #fff;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-bottom: 40px;
+}
