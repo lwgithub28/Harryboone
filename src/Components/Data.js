@@ -28,6 +28,7 @@ import CoastalPlacesandThings17 from "../assests/img/GelleryImg/coastal-places-a
 import CoastalPlacesandThings18 from "../assests/img/GelleryImg/coastal-places-and-things/Boone Brothers Recreating Seventh and Final Day on Folly Island, 2024, Acrylic and Oll on Wood Panel.webp";
 import CoastalPlacesandThings19 from "../assests/img/GelleryImg/coastal-places-and-things/Lavender Day, St. Simons Island, Georgia, 2024, Acrylic and Oil on Wood Panel.webp";
 import CoastalPlacesandThings20 from "../assests/img/GelleryImg/coastal-places-and-things/The Conversation in Teal, 2025, acrylic and oil on wood panel.webp";
+import CoastalPlacesandThings21 from "../assests/img/GelleryImg/coastal-places-and-things/Contemplating Cyan, 2025, acrylic and oil on wood panel.jpg";
 // CoastalPlacesandThingsThumbnail
 import CoastalPlacesandThingsThumbnail1 from "../assests/img/Thumbanil/coastal-places-and-things/Folly Beach, 2024, acrylic & oil on wood panel.webp";
 import CoastalPlacesandThingsThumbnail2 from "../assests/img/Thumbanil/coastal-places-and-things/The Decampment, 2024, acrylic & oil on wood panel.webp";
@@ -51,6 +52,7 @@ import CoastalPlacesandThingsThumbnail17 from "../assests/img/Thumbanil/coastal-
 import CoastalPlacesandThingsThumbnail18 from "../assests/img/Thumbanil/coastal-places-and-things/Boone Brothers Recreating Seventh and Final Day on Folly Island, 2024, Acrylic and Oll on Wood Panel-thumbnail.webp";
 import CoastalPlacesandThingsThumbnail19 from "../assests/img/Thumbanil/coastal-places-and-things/Lavender Day, St. Simons Island, Georgia, 2024, Acrylic and Oil on Wood Panel-thumbnail.webp";
 import CoastalPlacesandThingsThumbnail20 from "../assests/img/Thumbanil/coastal-places-and-things/The Conversation in Teal, 2025, acrylic and oil on wood panel.webp";
+import CoastalPlacesandThingsThumbnail21 from "../assests/img/Thumbanil/coastal-places-and-things/Contemplating Cyan, 2025, acrylic and oil on wood panel.jpg";
 // HumansAndAnimals
 import HumansAndAnimals1 from "../assests/img/GelleryImg/Nature-Humans-Animals-and Elements/Lost in Reading, 2022-23, acrylic & oil on wood panel.webp";
 import HumansAndAnimals2 from "../assests/img/GelleryImg/Nature-Humans-Animals-and Elements/Bear Market, 2014-15, acrylic, oil, newsprint & acrylic sealant on two wood panels.webp";
@@ -255,9 +257,19 @@ export const gallery = [
 
 export const Coastalplacesandthings = [
   {
+    src: CoastalPlacesandThings21,
+    srcset: CoastalPlacesandThingsThumbnail21,
+    title:
+      "Contemplating Cyan, 2025, acrylic and oil on wood panel, 48” x 42” ",
+    alt: "Contemplating Cyan, 2025, acrylic and oil on wood panel, 48” x 42” ",
+    // className: "first-img bigimg",
+    className: "first-img Coastalplacesandthingsfirstrow",
+  },
+  {
     src: CoastalPlacesandThings20,
     srcset: CoastalPlacesandThingsThumbnail20,
-    title: "The Conversation in Teal, 2025, acrylic and oil on wood panel, 45” x 48” ",
+    title:
+      "The Conversation in Teal, 2025, acrylic and oil on wood panel, 45” x 48” ",
     alt: "The Conversation in Teal, 2025, acrylic and oil on wood panel, 45” x 48”  ",
     // className: "first-img bigimg",
     className: "first-img Coastalplacesandthingsfirstrow",
